@@ -1,0 +1,66 @@
+.widget-item {
+    padding: 20px 0;
+    &:not(:first-child) {
+      border-top: 2px solid #c2c2c2;
+    }
+    &__city {
+      font-size: 28px;
+      color: $text;
+    }
+  
+    &__img {
+      width: 50%;
+    }
+  
+    &__temperature {
+      font-size: 42px;
+      color: $text;
+      white-space: nowrap;
+    }
+    &__descr {
+      margin-top: 20px;
+      font-size: 18px;
+      color: $text;
+    }
+  }
+  .temperature-wrap {
+    margin-top: 30px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    &__item {
+      padding: 5px 0;
+      padding-left: 35px;
+      font-size: 18px;
+      color: $text;
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 30px 30px;
+      &:nth-child(1) {
+        background-image: url('http://bryliakovmikhail.com/server_img/weather-widget/wind-arrow.svg');
+      }
+      &:nth-child(2) {
+        background-image: url('http://bryliakovmikhail.com/server_img/weather-widget/pressure.svg');
+      }
+    }
+  }
+  .more-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__item {
+      font-size: 20px;
+      color: $text;
+      &:nth-child(n + 3) {
+        margin-top: 10px;
+      }
+    }
+  }

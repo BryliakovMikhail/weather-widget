@@ -1,0 +1,47 @@
+{
+  "name": "weather-widget-vue",
+  "version": "1.0.0",
+  "description": "weather widget on Vue3",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode=production --env prod",
+    "dev": "webpack serve --mode=development"
+  },
+  "author": "Bryliakov Mikhail",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "axios": "^1.4.0",
+    "core-js": "^3.32.0",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-loader": "^9.1.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "filemanager-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.64.2",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vue-loader": "^17.2.2",
+    "vue-loader-plugin": "^1.3.0",
+    "vue-template-compiler": "^2.7.14",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

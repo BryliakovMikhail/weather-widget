@@ -1,0 +1,19 @@
+.widget {
+  &__btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #dedddd;
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
